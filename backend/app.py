@@ -1,7 +1,8 @@
-
+import os
 import json
 from datetime import datetime, timedelta
 from pathlib import Path
+from flask_cors import CORS
 
 from flask import (
     Flask,
@@ -43,6 +44,24 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = (
 app.config["MAX_CONTENT_LENGTH"] = 5 * 1024 * 1024
 
 db.init_app(app)
+
+# Allow the deployed frontend to access the backend API.
+frontend_origins = [
+    origin.strip()
+    for origin in os.environ.get("FRONTEND_ORIGIN", "").split(",")
+    if origin.strip()
+]
+
+if frontend_origins:
+    CORS(
+        app,
+        resources={
+            r"/api/*": {
+                "origins": frontend_origins
+            }
+        }
+    )
+
 app.register_blueprint(journey_alerts_bp)
 
 
@@ -578,12 +597,16 @@ def get_analysis_history():
 
 
 # ==========================================
-# START APPLICATION
+# INITIALIZE DATABASE
+# ==========================================
+
+with app.app_context():
+    db.create_all()
+
+
+# ==========================================
+# START APPLICATION LOCALLY
 # ==========================================
 
 if __name__ == "__main__":
-
-    with app.app_context():
-        db.create_all()
-
     app.run(debug=True)

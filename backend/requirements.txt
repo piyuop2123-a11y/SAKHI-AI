@@ -13,3 +13,5 @@ google-genai
 groq
 ultralytics
 gunicorn
+Flask-Cors
+psycopg[binary]
