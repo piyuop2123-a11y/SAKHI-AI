@@ -1,0 +1,9 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://sakhi-ai-backend-ewyx.onrender.com/api/:path*"
+    }
+  ]
+}
