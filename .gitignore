@@ -1,0 +1,41 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Machine learning model weights
+*.pt
+*.pth
+*.onnx
+
+# Generated images and temporary files
+detected_output.jpg
+tempCodeRunnerFile.py
+*.tmp
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Node dependencies, if any
+node_modules/

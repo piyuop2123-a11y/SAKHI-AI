@@ -1,0 +1,47 @@
+
+text,label
+"Someone is following me and I am scared",high
+"A person is chasing me on the road",high
+"Someone threatened me with a weapon",high
+"I am being physically attacked",high
+"Someone is trying to force me into a vehicle",high
+"I am trapped and cannot get out",high
+"A stranger is threatening to hurt me",high
+"Someone is trying to break into my house",high
+"I am being harassed and threatened right now",high
+"Someone is waiting outside and threatening me",high
+"I think someone is following me home",high
+"A person is trying to grab me",high
+"Someone is threatening me with violence",high
+"I am in immediate danger and need help",high
+"Someone is trying to enter my room without permission",high
+"I received repeated unwanted messages from an unknown number",medium
+"Someone keeps calling me despite asking them to stop",medium
+"I feel uncomfortable walking through a poorly lit street",medium
+"An unknown person is repeatedly waiting near my college",medium
+"I received a suspicious message online",medium
+"Someone is making unwanted comments at work",medium
+"I am being repeatedly contacted by an unknown account",medium
+"I feel unsafe waiting alone at a bus stop",medium
+"Someone is sharing my private information without permission",medium
+"I noticed a suspicious link in a message",medium
+"I feel uncomfortable travelling alone at night",medium
+"Someone is repeatedly sending unwanted friend requests",medium
+"I am unsure whether this online message is genuine",medium
+"The street near my home is poorly lit",medium
+"I am worried about sharing my live location online",medium
+"How can I share my journey with a trusted contact",low
+"What should I carry when travelling alone",low
+"How can I save emergency contact numbers",low
+"Give me general personal safety tips",low
+"How can I protect my privacy online",low
+"What precautions should I take before travelling",low
+"How can I plan a safe journey",low
+"What should I do if I feel uncomfortable in public",low
+"How can I recognize suspicious online messages",low
+"How do I create a personal safety checklist",low
+"Tell me about digital privacy precautions",low
+"How can I prepare for an emergency",low
+"What are useful safety apps for women",low
+"How can I improve my awareness while travelling",low
+"How do I identify emergency services in my area",low

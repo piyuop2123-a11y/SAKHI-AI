@@ -1,0 +1,14 @@
+
+Flask
+Flask-SQLAlchemy
+Flask-Login
+Werkzeug
+scikit-learn
+pandas
+numpy
+Pillow
+opencv-python
+python-dotenv
+google-genai
+groq
+ultralytics
