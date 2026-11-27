@@ -12,3 +12,4 @@ python-dotenv
 google-genai
 groq
 ultralytics
+gunicorn
